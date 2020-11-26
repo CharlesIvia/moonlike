@@ -52,16 +52,16 @@ nav.nav-bar {
 }
 
 .title {
-  font-size: 4.2rem;
-  line-height: 5.2rem;
-  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.8rem;
+  font-weight: 900;
   color: #3f3d55;
   margin-bottom: 2rem;
   margin-top: 22.5vh;
 }
 
 .hero p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 3.2rem;
   margin-bottom: 7rem;
   color: #3f3d55;
@@ -79,8 +79,9 @@ nav.nav-bar {
 .footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 0 17.4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 .footer ul {
