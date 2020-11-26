@@ -24,7 +24,6 @@ a {
 .container {
   width: 100%;
   height: 100vh;
-  padding: 0 15rem;
 }
 
 /* Nav styling */
@@ -34,6 +33,7 @@ nav.nav-bar {
   align-items: center;
   justify-content: space-between;
   height: 12.5vh;
+  padding: 0 18.5rem;
 }
 
 .nav-list ul {
@@ -42,4 +42,48 @@ nav.nav-bar {
   justify-content: space-between;
   width: 15vw;
   font-size: 1.4rem;
+}
+
+/* Hero styling */
+
+.hero {
+  display: flex;
+  padding-left: 18.5rem;
+}
+
+.title {
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+  font-weight: 700;
+  color: #3f3d55;
+  margin-bottom: 2rem;
+  margin-top: 22.5vh;
+}
+
+.hero p {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  margin-bottom: 7rem;
+  color: #3f3d55;
+}
+
+.hero button {
+  padding: 1.5rem;
+  width: 20rem;
+  border: none;
+  border-radius: 2.5rem;
+  background-color: #5650ac;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 17.4rem;
+  padding-bottom: 2rem;
+}
+
+.footer ul {
+  display: inline-block;
+  align-self: flex-end;
 }
