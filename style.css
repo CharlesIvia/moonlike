@@ -57,7 +57,7 @@ nav.nav-bar {
   font-weight: 900;
   color: #3f3d55;
   margin-bottom: 2rem;
-  margin-top: 22.5vh;
+  margin-top: 20.5vh;
 }
 
 .hero p {
@@ -87,4 +87,14 @@ nav.nav-bar {
 .footer ul {
   display: inline-block;
   align-self: flex-end;
+}
+
+.footer-item img {
+  margin-bottom: 2rem;
+}
+
+/* Mobile responsiveness */
+
+@media screen and (max-width: 768px) {
+  /* Waiting for the design */
 }
